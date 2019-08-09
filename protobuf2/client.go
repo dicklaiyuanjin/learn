@@ -5,7 +5,7 @@ import (
   "log"
   "fmt"
 
-  "learn/protobuf1/hello"
+  "learn/protobuf2/hello"
 )
 
 func main() {

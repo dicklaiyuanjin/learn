@@ -4,7 +4,7 @@ import (
   "net"
   "net/rpc"
   "log"
-  "learn/protobuf1/hello"
+  "learn/protobuf2/hello"
 )
 
 func main() {

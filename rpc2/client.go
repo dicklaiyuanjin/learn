@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-  client, err := DialHelloService("tcp", "localhost:1234")
+  client, err := hsi.DialHelloService("tcp", "localhost:1234")
   if err != nil {
     log.Fatal("dialing: ", err)
   }
